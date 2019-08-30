@@ -3,7 +3,7 @@
 This project provides the source code for the submission "Optimizing the Spatio-Temporal Resource Search Problem with Reinforcement Learning". It is based on the COMSET simulator described in the <a href="https://sigspatial2019.sigspatial.org/giscup2019/problem"> 2019 GISCUP Problem Definition</a>. COMSET simulates crowdsourced taxicabs (called <i>agents</i>) searching for customers (called <i>resources</i>) to pick up in a city. The simulator served as a standard testbed for the CUP contestants.
 
 ## Compiling and running the code:
-cd into the project directory
+cd into the project directory  
 mvn compile exec:java -Dexec.mainClass="Main"
 
 ## Description:
