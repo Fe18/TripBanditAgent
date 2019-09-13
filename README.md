@@ -6,7 +6,7 @@ This project provides the source code for the submission "Optimizing the Spatio-
 cd into the project directory  
 mvn compile exec:java -Dexec.mainClass="Main"
 
-## Train the agent
+## Train the agent:
 cd into the project directory  
 mvn compile exec:java -Dexec.mainClass="UserExamples.TripsBanditAgent" -Dexec.args='ExperimentName dataset.csv learning_rate exponential_lr_decay'
 
